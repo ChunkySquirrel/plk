@@ -8,16 +8,17 @@ require("@rails/activestorage").start()
 
 require("channels")
 require("packs/main")
-require("packs/magnificpopup")
-require("packs/niceselect")
+require("packs/jquery331.min")
+require("packs/magnificpopup.min")
+require("packs/niceselect.min")
 require("packs/slicknav")
-require("packs/masonry")
-require("packs/mixitup")
-require("packs/owl")
-require("packs/bootstrap")
+require("packs/masonry.min")
+require("packs/mixitup.min")
+require("packs/owl.min")
+require("packs/bootstrap.min")
 
 
-import 'bootstrap'
+// import 'bootstrap'
 import './src/application.scss'
 
 document.addEventListener("turbolinks:load", () => {
