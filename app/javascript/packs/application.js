@@ -8,7 +8,6 @@ require("@rails/activestorage").start()
 
 require("channels")
 require("packs/main")
-require("packs/jquery331")
 require("packs/magnificpopup")
 require("packs/niceselect")
 require("packs/slicknav")
